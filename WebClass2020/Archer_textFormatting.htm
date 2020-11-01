@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Text Formatting Activity</title>
+
+</head>
+<body>
+
+<!--Exercise is to make this file render like the formatted document
+"textFormatting-screenshot from Prof. Lilly (09/09/2020)-->
+
+<!--The first step, the initial text APPEARS to be a lvl 1 heading-->
+<h1>Integrated Web Design: The Meaning of Semantics (Take I)</h1>
+
+<!--This next one doesn't render at all, assuming it's a comment-->
+<!--Feb 18, 2005--> 
+
+<!--Adding white-space for readability-->
+By Molly Holzschlag.<br/><!--Line break, as rendered-->
+
+Nearly every web designer is guilty of forcing line breaks, 
+creating tables that don't hold tabular data, and a host of other egregious
+ <strong>HTML</strong><!--Given our discussion Tue, assuming this
+is 'strong' to add semantic meaning--> 
+sins. Now that CSS is around, 
+Molly E. Holzschlag slaps our hands and explains why we should pay 
+attention to each element's content, not just its looks.
+<!--Next heading appears 'smaller' than the first, indicating it should be
+at least one level lower than the first-->
+<h2>Semantics Is Meaning</h2>
+
+<!--The next tag looks italicized, but from the reading we can gather
+this, like the appearence of the 'HTML' from earlier should carry
+semantic meaning. (Helps for screen readers to convey meaning)-->
+In English, the word <em>semantic</em> means "of or relating to meaning." 
+In the science of linguistics, semantics is more explicit: It's the study
+ of meaning based on the historical and psychological significance of 
+ words and terms. 
+
+<!--Another heading, though smaller still than the second heading so far...
+Yet again, at least one level lower-->
+<h3>H1 Does Not Mean "Big, Bold, and Ugly"</h3>
+
+There are many examples of how a 
+
+<!--This one is tricky... Appears as larger text, though not in the vein
+of 'strong' or 'b', instead, just seems like the text is bigger...
+NOT SUGGESTED, however there appears to be a tag with property values that
+will render in the way we're looking for from an older version of HTML.
+The <font> tag with the size="x" property.-->
+<font size="+1">markup element</font> 
+
+can be meaningful, but 
+I've found none as crystal clear as the use of headings. If you've been 
+designing web sites for a while, you've probably run across this problem: 
+You want to use a heading, but you really dislike the font size that the 
+h1 element produces. So you go with an h3 because it produces a much nicer 
+look. (I used to do this all the time!) But markup was never really meant 
+to be presentational.
+
+<!--This heading actually seems to be the same size as the previous heading
+so we'll set it too an <h3>-->
+<h3>A Few Other Suspects</h3>
+
+Along with headings, paragraphs, and breaks, many of us have been guilty 
+of using other elements without concern for semantics, paying little or 
+no attention to when we can put them to work to better help define our 
+content. Here are a couple of instances of each:
+
+<!--Next, we have a list of bullet points... an Unordered List. <ul>
+Can't forget each item on the list needs to be designated as its own
+<li> or else multiple things will display on the same line.-->
+
+<!--One issue I have is the order they appear in the ref doc is different
+than what's provided in the initial doc... There doesn't seem to be a 
+discernable order though, so assuming it's a typo and not a sort run through
+a JS function.-->
+<ul>
+    <li>blockquote.</li>
+    <li>table.</li>
+    <li>address.</li>
+    <li>dl.</li>
+</ul>
+
+<!--Another heading, larger than the previous two, so we go back up in 
+importance to a lvl 2 heading.-->
+<h2>Mean What You Write, Write What You Mean</h2>
+When we author HTML and XHTML documents that are structured and semantic 
+rather than presentational, we can do a lot more with our content, 
+producing documents that are
+
+<!--Another unordered list-->
+<ul>
+    <li>Far more ready for styling effectively with CSS</li>
+    <li>Faster loading, by virtue of reduced page weight</li>
+    <li>More accessible</li>
+    <li>Sharable across numerous devices, from the rich visual environment 
+        of the 
+        desktop to the plain, content-oriented interface of the cell phone
+    </li>
+</ul>
+
+<!--And that finished out our doc. Now it should render the same as the 
+example provided (minus the ordering of the first list... I'll ask about
+that.)-->
+</body>
+</html>

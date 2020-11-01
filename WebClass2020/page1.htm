@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>HTML Rules!</title>
+    </head>
+    <!-- A sample page for 57.570, IIT, Bloomsburg -->
+    <body>
+        <!--Initial display included a bunch of 'white-space' in the code
+        Which isn't rendered in the browser-->
+
+        <!--Next, adding tags to incorporate line breaks (<br/>) helps to 
+        designate where we want new lines to begin; this doens't add tabular
+    spaces however....-->
+
+        <!--Finally, adding the character entities, (Those chars that start
+        with the ampersand (&) indicates we want to add special characters
+    to render in the browser that would normally be reserved for starting
+    tags, (&lt for 'Less Than') tag endings, (&gt for 'Greater Than') and
+    tabular spaces. (&nbsp for 'Non-Breaking SPace') -->
+
+    <!--Next step is to add the <h1> tag without closing it....-->
+    <!--Upon reloading, it treats all trailing content as a lvl 1
+    heading-->
+
+    <!--Finally, closing the <h1> tag makes the document render the way it's
+        expected to.-->
+        
+    <h1>HTML</h1>
+        
+    HTML is THE language of the Internet<br/>
+        HTML is an acronym for HyperText&nbsp;    Markup Language.<br/>
+            &nbsp;It is a tag-based language.<br/>
+        Examples of tags are &lt;head&gt; or &lt;body&gt;.
+    
+        <!--Initial implementation of the opening of the line break tag
+        without closing it confused the browser; initially, it treated it as
+        the end of the document.-->
+    
+        <br/> Introduction 
+
+        <!--After closing the tag, the document renders properly.-->
+    </body>
+</html>

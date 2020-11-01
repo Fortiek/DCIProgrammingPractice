@@ -1,0 +1,12 @@
+body{
+    background-color: #ff00ff;
+}
+h1, p{
+    color: #a0a0a0;
+}
+table, th, td{
+    color: #000000;
+    text-align: center;
+    border-collapse: collapse;
+    border: solid 1px #000000;
+}

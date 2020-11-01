@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Tables in HTML</title>
+        <style>
+            /* .firstTable, table, th, td{
+                border: 1px solid #000;
+            }
+            .secondTable, table, th, td{
+                border: 1px solid #f0f0f0;
+                border-collapse: separate;
+            } */
+            table, th, td{
+                border: 1px solid #000;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            table {
+                border-spacing: 15px;
+                padding: 5%;
+            }
+            body{
+                background-color: orange;
+            }
+            p{
+                color: blue;
+                padding: 2px;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="author" content="Matt Archer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1>HTML Tables</h1>
+
+        <table class="firstTable">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <tr>
+                    <td colspan="3">John</td>
+                </tr>
+                <td>Smith</td>
+                <td>247</td>
+                <td>Berlin</td>
+            </tr>
+            <tr>
+                <td>Analeise</td>
+                <td>??</td>
+                <td>Somewhere, UK</td>
+            </tr>
+            <tr>
+                <td>Jorge</td>
+                <td>42</td>
+                <td>Andromeda</td>
+            </tr>
+        </table>
+        <table class="secondTable">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>Gillian</td>
+                <td>37</td>
+                <td>Torrington</td>
+            </tr>
+            <tr>
+                <td>Monique</td>
+                <td>72</td>
+                <td>Watertown</td>
+            </tr>
+            <tr>
+                <td>Jeffery</td>
+                <td>56</td>
+                <td>Middletown</td>
+            </tr>
+        </table>
+        <h1>Another Table</h1>
+        <table style="width: 100%;">
+            <tr>
+                <th>Name:</th>
+                <td>Nature Conservancy</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Telephone</th>
+                <td>56577854</td>
+            </tr>
+            <tr>
+                <td>56577855</td>
+            </tr>
+            <tr>
+                <td>56577856</td>
+            </tr>
+        </table>
+
+        <!--Trying out some inline css-->
+        <p style="color:azure; padding: 10em;">
+            A Paragraph... A paragraph.... What <em>IS</em> a paragraph??</br>
+            Undoubtedly the proverbial cup a reader must decide on the quality and quantity of the filling of the contents therein!
+        </p>
+        <p>
+            Foresoothe! Harken! Other Old-Timey jargon that makes one scratch their own head!
+        </p>
+    </body>
+</html>
