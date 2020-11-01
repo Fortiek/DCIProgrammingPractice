@@ -1,0 +1,60 @@
+#bannerBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+#bannerBar li {
+    float: left;
+  }
+  
+#bannerBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+#bannerBar li a:hover {
+    background-color: #111;
+  }
+/*The previous is from w3schools navigation bar tutorial*/
+
+iframe{
+    display: block;
+    padding:2% 10%;
+    border: none;
+    width: 80%;
+    height: 40em;
+}
+body{
+    background-color: #e6ffe6;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #0000ff
+}
+h1{
+    text-decoration: wavy;
+    font-family: 'Bree Serif', serif, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.secondaryText{
+    padding-left: 4%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
